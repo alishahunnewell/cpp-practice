@@ -20,6 +20,8 @@ int main()
     std::cout << "Yep." << "\n"; //double quoted by itself, unconventional but okay
     std::cout << "And that's all, folks!\n"; //btween double quotes in existing text, conventional 
 //when \n is not being embedded into an existing line of double quoted text it is single quoted
+//note perfer \n over std::endl when outputting text to console 
+
     return 0;
 
 }
