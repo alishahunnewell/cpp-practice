@@ -18,4 +18,6 @@ int main()
 
     std::cout<< sizeof(int) << '\n'; //prints how many bytes of memory an int value takes 
     return 0;
+    //we got four bytes yay 
+    //tip; avoid implementation defined and unspecified behavior whenever possible as they can cause malfuctions for later implementations
 }
