@@ -1,7 +1,16 @@
 #include <iostream>
+//return type of int means function will return some integer value to the caller 
+int returnFive()
+{
+    return 5;
+}
 
 int main()
 {
+    std::cout << returnFive() << '\n'; //should print 5 
+    std::cout << returnFive() + 2 << '\n'; //should print 7 
+
+    returnFive();                   //okay:value 5 is returned but is ignored since main()doesnt do anything with it
 
     //get value from user 
     std::cout << "Enter an integer: ";
@@ -16,8 +25,8 @@ int main()
 }
 
 //note the following broken down version of the cod eabove does not work
-// void getValueFromUser()
-// {
+//void getValueFromUser()
+//{
 //  	std::cout << "Enter an integer: ";
 // 	int input{};
 // 	std::cin >> input;
