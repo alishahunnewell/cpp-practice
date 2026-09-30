@@ -12,6 +12,8 @@ int main()
 
     returnFive();                   //okay:value 5 is returned but is ignored since main()doesnt do anything with it
 
+    //note that return values wont be printed unless the caller sends them to console via std::cout
+
     //get value from user 
     std::cout << "Enter an integer: ";
     int num{};
