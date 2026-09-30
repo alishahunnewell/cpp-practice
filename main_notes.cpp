@@ -19,4 +19,3 @@ int main()
     return EXIT_SUCCESS;
     //to maximize portability you should only use 0 or EXIT_SUCCESS
 }
-
