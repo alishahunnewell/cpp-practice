@@ -3,7 +3,7 @@
 #include <iostream> 
 
 // int main();
-// {
+//{
 //     void foo() //illegal, functions definition  is nested inside finction main
 //     {
 //         std::cout << "foo!\n";
@@ -13,7 +13,7 @@
 
 //     return 0;
 
-// }
+//}
 
 //proper way 
 
