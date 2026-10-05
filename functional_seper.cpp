@@ -26,3 +26,4 @@ int main()
 }//works because x and y are distinct variables, the ones in main have nothing to do withthe ones in add()
 
 //best practice is that local variables inside the function body should be defined close to their first use 
+//not C used to require all local vars to be defined at top of function
