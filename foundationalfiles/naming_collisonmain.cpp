@@ -6,11 +6,18 @@ int x;      //compiles but discouraged, non const global var def without initial
 int y{ 5 }; //compiles but discouraged (same as above but w initializer)
 //x = 5;    // compile error: executable statements are not allowed in namespaces
 
+//can also use a using directive to allow access to names in namespace w no prefix
+using namespace std;
+//if we were to define our own cout func in global namespace we would get an error
+//avoid using-directives at the top of program or in header files
 
 
 void myFCn(int x)
-{
+{//curly braces used to delineate nested scope region for function
     std::cout << 2 * x;
+    //explicit namespace qualifier std:: tells compiler we want to use cout from std namespace
+    //The scope resolution operator is ::, cout is an object of ostream class used to send output
+
 }
 
 
