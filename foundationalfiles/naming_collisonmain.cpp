@@ -19,7 +19,7 @@ void myFCn(int x)
     //The scope resolution operator is ::, cout is an object of ostream class used to send output
 
 }
-
+//updating scope of required learning and pivoting to C practice
 
 int main()
 {
